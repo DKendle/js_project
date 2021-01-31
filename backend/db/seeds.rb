@@ -14,8 +14,8 @@ cateye = Project.create(name: "cateye", desc: "Shiny sphere that see's all")
 butterfly_brooch = Project.create(name: "butterfly brooch", desc: "Beautifully embroidered butterfly")
 
 
-orange = Bead.create(name: "Miyuki", bead_type: "Seed Bead", color: "Orange")
-burnt_sienna = Bead.create(name: "Miyuki", bead_type: "Seed Bead", color: "Burnt Sienna")
-blue = Bead.create(name: "TOHO", bead_type: "Seed Bead", color: "Blue")
-red = Bead.create(name: "TOHO", bead_type: "Seed Bead", color: "Red")
-yellow = Bead.create(name: "Czech", bead_type: "Super Duo", color: "Yellow")
+orange = Bead.create(name: "Miyuki", bead_type: "Seed Bead", color: "Orange", project_id: 1)
+burnt_sienna = Bead.create(name: "Miyuki", bead_type: "Seed Bead", color: "Burnt Sienna", project_id: 1)
+blue = Bead.create(name: "TOHO", bead_type: "Seed Bead", color: "Blue", project_id: 4)
+red = Bead.create(name: "TOHO", bead_type: "Seed Bead", color: "Red", project_id: 1)
+yellow = Bead.create(name: "Czech", bead_type: "Super Duo", color: "Yellow", project_id: 4)
